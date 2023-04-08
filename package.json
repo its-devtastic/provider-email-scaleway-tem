@@ -1,6 +1,6 @@
 {
-  "name": "provider-email-scaleway-tem",
-  "version": "1.0.0",
+  "name": "strapi-provider-email-scaleway-tem",
+  "version": "1.1.0",
   "description": "Scaleway Transactional Email provider for Strapi email",
   "keywords": [
     "email",

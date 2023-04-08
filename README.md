@@ -16,11 +16,12 @@ module.exports = ({ env }) => ({
   // ...
   email: {
     config: {
-      provider: 'scaleway-tem',
+      provider: 'strapi-provider-email-scaleway-tem',
       providerOptions: {
         accessKey: env('SCW_ACCESS_KEY'),
         secretKey: env('SCW_SECRET_KEY'),
         projectId: env('SCW_PROJECT_ID'),
+        region: env('SCW_REGION'), // Defaults to 'fr-par'
       },
       settings: {
         defaultFrom: 'strapi@example.com',
