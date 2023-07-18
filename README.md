@@ -2,6 +2,9 @@
 
 An email provider for Strapi for [Scaleway Transactional Email](https://www.scaleway.com/en/betas/#tem-transactional-email).
 
+> **Note**
+> This plugin requires Node v18+
+
 ## Installation
 ```shell
 npm i strapi-provider-email-scaleway-tem
