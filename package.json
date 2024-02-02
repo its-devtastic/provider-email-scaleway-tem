@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-email-scaleway-tem",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "Scaleway Transactional Email provider for Strapi email",
   "keywords": [
     "email",
@@ -18,14 +18,14 @@
   "license": "MIT",
   "author": {
     "name": "Devtastic",
-    "email": "hi@devtastic.build",
-    "url": "https://www.devtastic.build"
+    "email": "hi@devtastic.io",
+    "url": "https://www.devtastic.io"
   },
   "maintainers": [
     {
       "name": "Leon van der Grient",
-      "email": "leon@devtastic.build",
-      "url": "https://devtastic.build"
+      "email": "leon@devtastic.io",
+      "url": "https://devtastic.io"
     }
   ],
   "main": "./lib",
@@ -36,13 +36,13 @@
     "lint": "run -T eslint ."
   },
   "dependencies": {
-    "@scaleway/sdk": "1.20.0"
+    "@scaleway/sdk": "2.14.0"
   },
   "engines": {
     "node": ">=18.x.x <=20.x.x",
     "npm": ">=6.0.0"
   },
   "devDependencies": {
-    "prettier": "3.0.0"
+    "prettier": "3.2.4"
   }
 }
